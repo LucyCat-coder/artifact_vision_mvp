@@ -1,28 +1,19 @@
-.PHONY: install run run-dev ui test validate dry-run import train
+.PHONY: install run ui test import train
 
 install:
 	python -m pip install -r requirements.txt
 
 run:
-	python -m uvicorn app.main:app
-
-run-dev:
-	python -m uvicorn app.main:app --reload
+	uvicorn app.main:app --reload
 
 ui:
-	python -m streamlit run streamlit_app.py
+	streamlit run streamlit_app.py
 
 test:
-	python -m pytest -v
-
-validate:
-	python scripts/validate_dataset.py data/dataset/metadata/artifacts.csv
-
-dry-run:
-	python scripts/import_dataset.py data/dataset/metadata/artifacts.csv --dry-run
+	pytest -q
 
 import:
-	python scripts/import_dataset.py data/dataset/metadata/artifacts.csv --strict
+	python scripts/import_dataset.py data/dataset.csv
 
 train:
 	python scripts/train_linear_heads.py
