@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+
+# Application data
+data/images/*
+!data/images/.gitkeep
+
+data/qdrant/*
+!data/qdrant/.gitkeep
+
+data/models/*
+!data/models/.gitkeep
+
+# Dataset photographs
+data/dataset/images/*
+!data/dataset/images/.gitkeep
+
+# ML caches
+.cache/
+huggingface/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

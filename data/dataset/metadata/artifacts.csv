@@ -1,0 +1,3 @@
+image_path,title,artifact_type,material,era,year_from,year_to,description,expert_source,object_group_id,tags
+../images/artifact_001_front.jpg,Находка 001,фибула,бронза,римский период,50,200,Описание находки,Эксперт или источник,object-001,застежка;украшение
+../images/artifact_001_back.jpg,Находка 001,фибула,бронза,римский период,50,200,Обратная сторона того же объекта,Эксперт или источник,object-001,застежка;украшение

@@ -1,0 +1,3 @@
+image_path,title,artifact_type,material,era,year_from,year_to,description,expert_source,object_group_id,tags
+./photos/example_001.jpg,Фибула 001,фибула,бронза,римский период,50,200,Дуговидная фибула с коррозией,Эксперт А,object-001,украшение;застёжка
+./photos/example_002.jpg,Монета 002,монета,серебро,средневековье,1200,1300,Серебряная монета с частично читаемой легендой,Каталог B,object-002,монета

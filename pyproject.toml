@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "artifact-vision-mvp"
+version = "0.1.0"
+description = "MVP for visual retrieval and classification of historical artifacts"
+requires-python = ">=3.11,<3.13"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

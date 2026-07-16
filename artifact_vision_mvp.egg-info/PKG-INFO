@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: artifact-vision-mvp
+Version: 0.1.0
+Summary: MVP for visual retrieval and classification of historical artifacts
+Requires-Python: <3.13,>=3.11
